@@ -38,20 +38,9 @@ try:
 except URLError as e:
   streamlit.stop()
 
-#streamlit.header('Fruityvice Fruit Advice!')
-#fruit_choice = streamlit.text_input('What fruit would you like information about?', 'Kiwi')
-#streamlit.write('The uwer entered', fruit_choice)
 
-#new section for fruityvice api
 
-#fruityvice_response=requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
-#streamlit.text(fruityvice_response.json())#just writes data to screen
 
-#normalise json
-#fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
-#output it to screen
-#streamlit.dataframe(fruityvice_normalized)
-#troubleshoot
 streamlit.stop()
 
 
