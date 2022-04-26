@@ -42,4 +42,4 @@ my_cur.execute("SELECT * from pc_rivery_db.public.fruit_load_list")
 my_data_row = my_cur.fetchone()
 streamlit.text("The Fruit Load list Contains")
 streamlit.text(my_data_row)
-
+#try 2
