@@ -43,3 +43,7 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 #try 2
+
+fruit_choice2 = streamlit.text_input('What fruit would you like information about?')
+fruityvice_response2=requests.get("https://fruityvice.com/api/fruit/" + fruit_choice2)
+
